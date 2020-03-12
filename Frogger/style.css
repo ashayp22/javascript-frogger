@@ -1,0 +1,60 @@
+canvas {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #010101;
+}
+body {
+    text-align: center;
+    background-color: #a7fffd;
+
+}
+
+h1 {
+    color: #8122af;
+    font-family: "Andale Mono";
+}
+
+
+
+
+.dropbtn {
+    background-color: #8122af;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #8122af;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #8122af;
+}
+

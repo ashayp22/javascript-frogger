@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FROGGER</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</head>
+<body onload = "initialize()">
+<canvas id="canvas" width="650" height="850">
+</canvas>
+<br>
+<div class="dropdown" id = "type">
+    <button class="dropbtn">Amount of Players</button>
+    <div class="dropdown-content">
+        <a href="#" onclick = "initializeFrog(1)">1 Player</a>
+        <a href="#" onclick = "initializeFrog(2)">2 Player</a>
+        <a href="#" onclick = "initializeFrog(3)">3 Player</a>
+        <a href="#" onclick = "initializeFrog(4)">4 Player</a>
+    </div>
+</div>
+<div class="dropdown" id = "type2">
+    <button class="dropbtn">Theme</button>
+    <div class="dropdown-content">
+        <a href="#" onclick = "setTheme(1)">Classic</a>
+        <a href="#" onclick = "setTheme(2)">Cat</a>
+        <a href="#" onclick = "setTheme(3)">Penguin</a>
+    </div>
+</div>
+<br>
+<br>
+<h1>Press c key for controls</h1>
+
+
+
+
+</body>
+</html>
